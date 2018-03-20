@@ -1,0 +1,44 @@
+
+.site-header {
+    position: relative;
+	padding: 1em;
+	
+	color: #fff;
+	background-color: #000;
+	
+	@media screen and (min-width: $query__small) {
+		padding: 1em 2em;
+	}
+}
+
+
+.custom-logo-link {
+	margin-right: 1em;
+	img {
+		display: block;
+		
+	
+	}
+}
+
+@media screen and (min-width: $query__medium) {
+	.site-header {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.site-branding {
+		width: 35%;
+		flex: 1 0 auto;
+	}
+	
+	.site-navigation {
+        width: 55%;
+        
+	}
+}
+
+/*
+Header Menu
+*/
+@import "header-menu";

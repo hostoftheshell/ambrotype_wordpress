@@ -1,9 +1,9 @@
 /*!
 Theme Name: Ambrotype201
-Theme URI: http://underscores.me/
-Author: Baptiste Chenin
-Author URI: http://underscores.me/
-Description: An awsome new Ambrotype201-based theme for studio-ambrotype.com
+Theme URI: http://www.studio-ambrotype.com/
+Author: FC DEV
+Author URI: http://www.studio-ambrotype.com/
+Description: An awsome new Ambrotype201-based theme for studio-ambrotype.com build during LAB 201 - PROJET FINAL / Formation Continue Session Oct 2017 - École Multimédia, Paris
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -86,14 +86,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "modules/clearings";
 
 /*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-@import "site/secondary/widgets";
-
-/*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 @import "site/site";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
 
 /*--------------------------------------------------------------
 # Infinite scroll
